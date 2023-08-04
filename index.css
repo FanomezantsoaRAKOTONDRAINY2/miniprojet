@@ -1,0 +1,40 @@
+.sous-contonair{
+    margin:43vh 30vw ;
+    padding: 5px;
+}
+.enf{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 10vh;
+    border-radius: 10px;
+    font-family: Verdana ;
+    width: 40vw;
+    
+}
+h1{
+    padding: 8px;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+    margin: 10px;
+    width: 10vw;
+    padding: 9px;
+    width: 6vw;
+    border-radius: 10px;
+    margin-left: 16vw;
+}
+
+@media (max-width:444px){
+    .enf{
+        width: 90vw;
+        background-color: aqua;
+        margin-left: -30vw;
+    }
+    button{
+        width: 25vw;
+        margin-left: -2vw;
+
+    }
+}
